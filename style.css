@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('FunnyToysDEMO.otf') format('woff2'),
+         url('FunnyToysDEMO.otf') format('woff'),
+         url('FunnyToysDEMO.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'MiFuente', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;

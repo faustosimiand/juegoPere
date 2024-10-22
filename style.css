@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-    background-image: url('../walt\ disney\ wallpaper\ iphone\ stitch\ mit\ einem\ eis\ in\ der\ hand\ ideen\ für\ wallpaper\ für\ das\ handy.jpeg'); /* Imagen de fondo para todas las cartas */
+    background-image: url('/walt\ disney\ wallpaper\ iphone\ stitch\ mit\ einem\ eis\ in\ der\ hand\ ideen\ für\ wallpaper\ für\ das\ handy.jpeg'); /* Imagen de fondo para todas las cartas */
     background-size: cover;
     background-position: center bottom; /* Mueve la imagen de fondo hacia arriba */
     color: black; /* Texto en negro */

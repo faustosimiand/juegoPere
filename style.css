@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E5B8F4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background-image: url('/walt\ disney\ wallpaper\ iphone\ stitch\ mit\ einem\ eis\ in\ der\ hand\ ideen\ für\ wallpaper\ für\ das\ handy.jpeg'); /* Imagen de fondo para todas las cartas */
+    background-size: cover;
+    background-position: center bottom; /* Mueve la imagen de fondo hacia arriba */
+    color: black; /* Texto en negro */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* El texto irá a la parte inferior */
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px; /* Aumenta el espacio inferior para que el texto se vea mejor */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #810CA8;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2D033B;
+}
+
+/* Animación de salida de la carta */
+.slide-out {
+    transform: translateX(500px);
+    opacity: 0;
+}
+
+/* Animación de entrada de la carta */
+.slide-in {
+    transform: translateX(-500px);
+    opacity: 1;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Animación de salida de la carta */
+.slide-out {
+    transform: translateX(500px);
+    opacity: 0;
+}
+
+/* Animación de entrada de la carta */
+.slide-in {
+    transform: translateX(-500px);
+    opacity: 1;
+}
